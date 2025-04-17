@@ -82,8 +82,7 @@ RUN_LOG="${USER_HOME}/ursim_runtime.log"       # 运行日志路径
 JAVA_VERSION="8"                           # 要安装的Java版本
 ```
 **注意**
-必须使用 1.8 版本，这是根据相关论坛讨论得出的结论。详情可参考
-https://forum.universal-robots.com/t/parameter-mismatch-when-installing-ursim-on-fresh-ubuntu/2482
+必须使用 1.8 版本，这是根据相关论坛讨论得出的结论。[详情可参考](https://forum.universal-robots.com/t/parameter-mismatch-when-installing-ursim-on-fresh-ubuntu/2482)
 
 ## 六、常见问题及解决方法
 ### 1. Java 安装失败
