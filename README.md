@@ -82,7 +82,10 @@ RUN_LOG="${USER_HOME}/ursim_runtime.log"       # 运行日志路径
 JAVA_VERSION="8"                           # 要安装的Java版本
 ```
 **注意**
-必须使用 1.8 版本，这是根据相关论坛讨论得出的结论。[详情可参考](https://forum.universal-robots.com/t/parameter-mismatch-when-installing-ursim-on-fresh-ubuntu/2482)
+必须使用 1.8 版本，这是根据相关论坛讨论得出的结论。
+ * [在新的 Ubuntu 上安装 URSim 时参数不匹配](https://forum.universal-robots.com/t/parameter-mismatch-when-installing-ursim-on-fresh-ubuntu/2482)
+ * [离线模拟器 - E 系列 - 适用于 LINUX 的 UR SIM 5.11.1 删除所有已安装的文件](https://forum.universal-robots.com/t/offline-simulator-e-series-ur-sim-for-linux-5-11-1-removes-all-installed-files/15384)
+
 
 ## 六、常见问题及解决方法
 ### 1. Java 安装失败
@@ -97,8 +100,7 @@ JAVA_VERSION="8"                           # 要安装的Java版本
 - **问题描述**：双击桌面快捷方式无法启动 URSim。
 - **解决方法**：检查安装路径和权限是否正确，确保 `start-ursim.sh` 脚本具有执行权限。可以尝试手动在终端中运行该脚本。
 
-## 七、许可证
-本脚本采用 [Apache License 2.0](LICENSE) 授权，你可以自由使用、修改和分发，但需保留版权声明和许可证信息。
+## 7、参考下载链接
 
-## 八、贡献
-如果你发现脚本有问题或有改进建议，欢迎提交 Issue 或 Pull Request。
+ * [最新技术资料](https://www.universal-robots.cn/technical-files/)
+ * [旧版下载中心](https://www.universal-robots.com/articles/ur/documentation/legacy-download-center/)
