@@ -148,13 +148,7 @@ Ctrl + Alt + F1
 sudo apt install -f
 # 重启 GDM3
 sudo systemctl restart gdm3
-```
-
-### 2. 32 位系统兼容性
-⚠️ **注意**：  
-- **32 位系统**：请使用 [URSim32 安装手册]  
-- **64 位系统**：请使用 `ursim64.sh` 脚本  
-- Ubuntu 18.04 官方不再支持 32 位系统，需确认 URSim 版本与系统架构匹配。
+``
 
 ## 八、系统优化建议
 ```bash
